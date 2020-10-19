@@ -97,7 +97,6 @@ class Ship:
                 self.lasers.remove(laser)
             elif laser.collision(obj):
                 obj.health -= 10
-                hitSound.play()
                 self.lasers.remove(laser)
 
 
